@@ -11,16 +11,17 @@ Founded in 2013, Bellabeat is a high-tech company that manufactures health focus
 
 ## Objective
 As junior analyst, my role is to analyse smart device usage data in order to gain insight into how consumers use non-Bellabeat smart devices. The findings of this analysis will then be used to guide future marketing strategies for Bellabeat. 
-***
 
 
-_This project adhered to the following data analysis procedure:_
+
+_Data analysis procedure:_
 ### 🙋 Ask
 ### 📋 Prepare
 ### 🗂️ Process
 ### 🛠 Analyse
 ### 📊 Share 
 ### ✔️ Act 
+
 
 ## 1. Ask 
 **Business Task:** Analyse Fitbit data to gain insight into consumer habits and subsequently use this insight to guide marketing strategy for Bellabeat to grow. 
