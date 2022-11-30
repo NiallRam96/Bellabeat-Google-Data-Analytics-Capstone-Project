@@ -123,11 +123,21 @@ Daily_Steps <- Daily_activity_updated %>%
   ```
  ![image](https://user-images.githubusercontent.com/118458814/204844557-4298d489-20c1-451d-ab28-cf559a3cae8e.png)
 
-In order to determine the relationship between total steps and calories burend, a correlation analysis was conducted. While there are some issues with the data, such as some participants not recording steps but still having calorie data, we can see a moderate positive association between total steps and calories burned: 
+In order to determine the relationship between total steps and calories burend, a correlation analysis was conducted. While there are some issues with the data, such as some participants not recording steps but still having calorie data, we can see a moderate to strong positive association (r = 0.591) between total steps and calories burned: 
+```
+Daily_activity_updated%>%
+  group_by(Weekday) %>%
+  summarize(mean(TotalSteps), sd(TotalSteps), mean(Calories), sd(Calories), cor(TotalSteps,Calories))
+  ```
+  
+  ![image](https://user-images.githubusercontent.com/118458814/204848114-2ae2b4cd-180a-4c19-9663-81188bd09977.png)
+  
+  For further insight into how participants allocated their time, total activity times were converted to percentages and visualised in a pie chart. As we can see, participants spent 81% of their time sedentary. However, further inspection of the dataset shows that 79 of 940 (8.4%) data entries were 100% sedentary (i.e. 1440 minutes sedentary) which may have skewed data. Nonetheless, this gives an interesting insight as to how users spend their time:  
+  
+![image](https://user-images.githubusercontent.com/118458814/204849986-a4af8df3-9e96-41c2-9678-7d16fbb9f609.png)
 
- 
-
-
+Building on this, data was analysed to determine which days participants were more likely to be sedentary. Results suggest that Monday has the highest average time spent sedentary, although there is no significant difference between any of the days (see error bars):
+![image](https://user-images.githubusercontent.com/118458814/204856089-698ce705-d908-4be2-8604-115b3064b8ed.png)
 
 
 
