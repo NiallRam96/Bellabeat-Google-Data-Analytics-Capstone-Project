@@ -98,9 +98,35 @@ Sleep_Data$TotalHoursInBed <- round(Sleep_Data$TotalHoursInBed, digits = 2)
 ```
 
 ## 4. Analyse 
-#### Summary statistics:
-- Activity Data:
-  - Minimum values, maximum values, mean, media, and 
+
+#### Activity Data 
+
+Descriptive statistics for all activity variables calculated using the summary funciton: 
+
+```
+summary(Daily_activity_updated)
+
+```
+![image](https://user-images.githubusercontent.com/118458814/204821622-8d83177f-d20f-41b9-848c-f959aae39a87.png)
+
+
+Next, the average steps per weekday were calculated and visualised to show any discrepancies. Mean steps per day range from 6933 to 8153, suggesting that participants are slightly more active than the average person (sugeested average daily steps is ~6886 steps (Berko et al.,2016)). Most steps are recorded on Saturdays while the least steps are recorded on Sundays, although this difference is not significant. The error bars of this plot clearly ilustrate the substantial spread of values and their deviation from the mean. This therefore hinders the conclusions that we can draw:  
+```
+Daily_Steps <- Daily_activity_updated %>%
+  group_by(Weekday) %>%
+  summarise(mean(TotalSteps), sd(TotalSteps))
+  
+  ggplot(Daily_Steps, aes(x = Weekday, y = Daily_Steps$`mean(TotalSteps)`, fill = Weekday)) +
+  geom_bar(stat = "identity") + 
+  geom_errorbar(aes(ymin=Daily_Steps$`mean(TotalSteps)`- Daily_Steps$`sd(TotalSteps)`, ymax= Daily_Steps$`mean(TotalSteps)`+ Daily_Steps$`sd(TotalSteps)`), width = .2, position = position_dodge((.9)))+
+  labs(title = "Average Steps per Weekday", x = "Weekday", y = "Steps")
+  ```
+ ![image](https://user-images.githubusercontent.com/118458814/204844557-4298d489-20c1-451d-ab28-cf559a3cae8e.png)
+
+In order to determine the relationship between total steps and calories burend, a correlation analysis was conducted. While there are some issues with the data, such as some participants not recording steps but still having calorie data, we can see a moderate positive association between total steps and calories burned: 
+
+ 
+
 
 
 
