@@ -139,7 +139,20 @@ Daily_activity_updated%>%
 Building on this, data was analysed to determine which days participants were more likely to be sedentary. Results suggest that Monday has the highest average time spent sedentary, although there is no significant difference between any of the days (see error bars):
 ![image](https://user-images.githubusercontent.com/118458814/204856089-698ce705-d908-4be2-8604-115b3064b8ed.png)
 
+However, the analysis also shows that participants are more likely to be very active on Monday, Tuesday, and Satruday, with slight dips mid week and on Sundays. Although these averages are not significantly different, it provides an insight into the structure of the participants' routine. Several unknwown variables, such as the participants' occupations etc, make it difficult to make more detailed implications. 
 
+![Average Time Spent Very Active Per Day](https://user-images.githubusercontent.com/118458814/205461594-bddf2f76-6065-4004-83c5-70d6b1570c93.png)
+
+#### Sleep Data
+As highlighted above, sleep data was only gathered from 24 participants and tracked their total time in bed and total time spent asleep. Data was first summarised to get initial insights: 
+
+![image](https://user-images.githubusercontent.com/118458814/205462163-f0e67b65-87be-4b00-929f-ff99b670f4a6.png)
+
+This data illustrates that participants averaged 6.99 hours of sleep per night but their average time spent in bed was 7.64 hours, suggesting that particpants spent an average of ~40 minutes awake while in bed. This time awake may be spent prior to falling asleep and/or may be due to the participant waking up during the night, although we can't be certain as we do not have data to confirm this. 
+
+To dive deeper, I analysed and visualised the average sleep time per weekday. Results show that the participants only averaged the recommended 7-8 hours (Mayo Clinic, National Sleep Foundation) of sleep per night on two occasions, Wednesday and Sunday. 
+
+![Average Sleep Time Per Week](https://user-images.githubusercontent.com/118458814/205462547-8698b37e-863a-44c0-923d-c90d0d8822e5.png)
 
 
 
