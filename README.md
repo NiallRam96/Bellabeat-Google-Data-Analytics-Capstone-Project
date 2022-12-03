@@ -144,18 +144,29 @@ However, the analysis also shows that participants are more likely to be very ac
 ![Average Time Spent Very Active Per Day](https://user-images.githubusercontent.com/118458814/205461594-bddf2f76-6065-4004-83c5-70d6b1570c93.png)
 
 #### Sleep Data
-As highlighted above, sleep data was only gathered from 24 participants and tracked their total time in bed and total time spent asleep. Data was first summarised to get initial insights: 
+As mentioned above, sleep data was only gathered from 24 participants and tracked their total time in bed and total time spent asleep. Data was first summarised to get initial insights. 
+
+This data illustrates that participants averaged 6.99 hours of sleep per night but their average time spent in bed was 7.64 hours, suggesting that particpants spent an average of ~40 minutes awake while in bed. This time awake may be spent prior to falling asleep and/or may be due to the participant waking up during the night, although we can't be certain as we do not have data to confirm this. However, the summary stats highlight key issues in the data set, such as large ranges in total time in bed and total sleep time. 
 
 ![image](https://user-images.githubusercontent.com/118458814/205462163-f0e67b65-87be-4b00-929f-ff99b670f4a6.png)
 
-This data illustrates that participants averaged 6.99 hours of sleep per night but their average time spent in bed was 7.64 hours, suggesting that particpants spent an average of ~40 minutes awake while in bed. This time awake may be spent prior to falling asleep and/or may be due to the participant waking up during the night, although we can't be certain as we do not have data to confirm this. 
 
-To dive deeper, I analysed and visualised the average sleep time per weekday. Results show that the participants only averaged the recommended 7-8 hours (Mayo Clinic, National Sleep Foundation) of sleep per night on two occasions, Wednesday and Sunday. 
+To dive deeper, I analysed and visualised the average sleep time per weekday. Results show that the participants only averaged the recommended 7-8 hours (Mayo Clinic, National Sleep Foundation) of sleep per night on two occasions, Wednesday and Sunday. Getting more sleep on Sunday makes sense as most people are preparing for a week of school, university, or work. Similarly, these participants may have experienced mid-week fatigue from their respective schedule. 
 
 ![Average Sleep Time Per Week](https://user-images.githubusercontent.com/118458814/205462547-8698b37e-863a-44c0-923d-c90d0d8822e5.png)
 
+In accordance with the above analysis, I examined the average time spent in bed per weekday. As you can see, this graph follows an identical pattern to the above. 
 
+![Average Time Spent in Bed](https://user-images.githubusercontent.com/118458814/205463008-7a22624b-4a68-4c95-9263-971c1bcb5ff9.png)
 
+This data provides an interesting insight into the sleep patterns of participants and highlights additonal areas to be examined that may provide more context to these trends, as discussed below in section 6. 
+
+#### Weight Data
+Finally, the weight data from 8 unique participants was analysed. Collected data included weight (Kg & pounds), BMI, fat %, and the collection method (automatic or manual). Initial descriptive statistics highlight some important issues. For instance, over 60% of data was logged manually and the means of partipants may be impacted by an outlier (highlighted below). 
+
+![image](https://user-images.githubusercontent.com/118458814/205463230-d0047d20-1a21-459f-962c-85f4ae694be4.png)
+
+![image](https://user-images.githubusercontent.com/118458814/205463581-f97aeb14-1381-4524-837e-c063dabe8076.png)
 
 
 
