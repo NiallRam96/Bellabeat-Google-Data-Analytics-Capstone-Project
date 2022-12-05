@@ -157,7 +157,7 @@ This data illustrates that participants averaged 6.99 hours of sleep per night b
 ![image](https://user-images.githubusercontent.com/118458814/205462163-f0e67b65-87be-4b00-929f-ff99b670f4a6.png)
 
 
-To dive deeper, I analysed and visualised the average sleep time per weekday. Results show that the participants only averaged the recommended 7-8 hours (Mayo Clinic, National Sleep Foundation) of sleep per night on two occasions, Wednesday and Sunday. Getting more sleep on Sunday makes sense as most people are preparing for a week of school, university, or work. Similarly, these participants may have experienced mid-week fatigue from their respective schedule. 
+To dive deeper, I analysed and visualised the average sleep time per weekday. Results show that the participants only averaged the recommended 7-9 hours (Mayo Clinic, National Sleep Foundation) of sleep per night on three occasions, Monday, Wednesday and Sunday. Getting more sleep on Sunday makes sense as most people are preparing for a week of school, university, or work.  
 
 ![Average Sleep Time Per Week](https://user-images.githubusercontent.com/118458814/205462547-8698b37e-863a-44c0-923d-c90d0d8822e5.png)
 
@@ -194,8 +194,20 @@ Interactive Dashboards of the FitBit Fitness Tracker Data were designed using Ta
 ![image](https://user-images.githubusercontent.com/118458814/205627700-ecc1c390-8c0b-44e3-b5f4-390944e2062e.png)
 
 
+## 6. Act 
 
+Final conclusions based on this analysis:
+- Despite an average of 7638 steps per day, participants were sedentary 81% of the time, equating to about 12 hours of their day! In contrast, they only spent 1.24% of their day very active. This may depend on key lifestyle factors such as work schedule, interest in exercise , and/or injury/ illness. Knowing more information about the sample will allow us to draw clearer conclusions.
+- Participants appear to be more active on Saturdays and least active on Sundays, although these differences were not statistically significant. 
+- There is a moderate to strong positive correlation between total steps and calories burned. 
+- Participants averaged 6.99 hours of sleep per night, with Monday, Wednesday, and Sunday having the highest averages. However, these were the only days to average higher than 7 hours per night, suggesting that the sample does not get enough sleep per night. Research suggests that this may increase the risk of several diseases such as cancer, diabetes, and depression. 
+- The sample spent an average of ~40 minutes in bed while not asleep. As mentioned above, this may be time spent on their phone before going asleep, unexpectedly waking up during the night to use the toilet and/or tending to a newborn child. Knowing the specifics here will also help understand this data further. 
 
+Marketting recommendations for future expansion:
+- Commence a larger scale study to collect more detailed data in order to make clearer recommendations.
+- Raising awareness surrounding the health benefits of being active for >150 minutes per week. Decreased risk of cardiovascular issues, obesity, and increase in mental wellbeing. 
+- Educational campaign to highlight the physical and mental health benefits of getting 7-9 hours sleep on a regular basis. This campaign can encourage ways of developing a healthy sleep routine, such as no phones in bed, going to bed at the same time, no caffeine after 4pm, etc.
+- Develop an app that displays all of the user's data clearly and uses previous research to highlight areas that the user needs to improve. For instance, it can highlight if the user is not sleeping enough and/ or not active enough. Educating the user to take matters into their own hands is the best way to help them fulfil their potential and live their best life. 
 
 
 
