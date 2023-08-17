@@ -37,7 +37,7 @@ _Data analysis procedure:_
 **Data Source:** [FitBit Fitness Tracker Data](https://www.kaggle.com/datasets/arashnic/fitbit)
 
 **Details:** 
-- The dataset contains personal fitness tracker from 30 FitBit users, all of which concsented to the submission of their data.
+- The dataset contains personal fitness tracker from 30 FitBit users, all of whom consented to the submission of their data.
 - Data includes minute-level output for physical activity, heart rate, and sleep monitoring. 
 - The downloaded data set includes 18 individual CSV files containing daily activity, steps, and heart rate data. 
 
