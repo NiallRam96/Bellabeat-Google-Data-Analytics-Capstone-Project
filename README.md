@@ -10,7 +10,7 @@ Data source: The FitBit Fitness Tracker Data analyzed for this project can be fo
 Founded in 2013, Bellabeat is a high-tech company that manufactures health focused smart products, with a focus on empowering women to unlock their full potential. Through collecting data on activity, sleep, stress, and reproductive health, Bellabeat’s mission is to empower women to reconnect with themselves, unleash their inner strengths and be what they are meant to be. They are now the number 1 women’s health tracker. 
 
 ## Objective
-As junior analyst, my role is to analyse smart device usage data in order to gain insight into how consumers use non-Bellabeat smart devices. The findings of this analysis will then be used to guide future marketing strategies for Bellabeat. 
+As Junior Data Analyst, my role is to analyse smart device usage data in order to gain insight into how consumers use non-Bellabeat smart devices. The findings of this analysis will then be used to guide future marketing strategies for Bellabeat. 
 
 
 
